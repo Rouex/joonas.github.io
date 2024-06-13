@@ -137,14 +137,14 @@
     <p>‎ </p>
     <p>‎ </p>
     <div class="easter-egg" id="easterEgg">
-        🎉 Glückwunsch, du hast das Easter Egg gefunden! 🎉
+        Pepe
     </div>
     <script>
         window.addEventListener('scroll', function() {
             var scrollPosition = window.scrollY + window.innerHeight;  // Position of the bottom of the viewport
             var documentHeight = document.body.scrollHeight;          // Total height of the document
             var easterEgg = document.getElementById('easterEgg');
-            if (scrollPosition >= documentHeight - 999999999999991000) {             // Show the Easter egg when within 1000 pixels of the bottom
+            if (scrollPosition >= documentHeight - 100) {             // Show the Easter egg when within 1000 pixels of the bottom
                 easterEgg.style.display = 'block';
             } else {
                 easterEgg.style.display = 'none';
